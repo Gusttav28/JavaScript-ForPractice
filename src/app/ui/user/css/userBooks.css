@@ -1,0 +1,32 @@
+.modal{
+    background-color: black;
+    display: none;
+    position: relative;
+    z-index: auto;
+    left: 20px;
+    top: 10px;
+    width: 40px;
+    height: 30px;
+    overflow: auto;
+}
+
+.modal-content{
+    background-color: black;
+    color: white;
+    margin: 5% auto;
+    position: center;
+}   
+
+.closeButton{
+    color: aliceblue;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+
+.closeButton:hover,
+.closeButton:focus{
+    color: antiquewhite;
+    cursor: pointer;
+}
